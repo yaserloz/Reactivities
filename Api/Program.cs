@@ -12,7 +12,6 @@ using Presistence;
 
 
 
-
 namespace Api
 {
     public class Program
@@ -27,6 +26,7 @@ namespace Api
                 {
                     var context = services.GetRequiredService<DataContext>();
                     context.Database.Migrate();
+                    Seed.SeedData(context);
                 }
                 catch(Exception ex)
                 {

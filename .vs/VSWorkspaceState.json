@@ -1,9 +1,15 @@
 {
   "ExpandedNodes": [
+    "",
     "\\Api",
     "\\Api\\Controllers",
+    "\\Api\\Persistence",
+    "\\Api\\Presistence",
+    "\\Application",
+    "\\Application\\Activites",
     "\\Domain",
     "\\Presistence"
   ],
+  "SelectedNode": "\\Application\\Activites\\List.cs",
   "PreviewInSolutionExplorer": false
 }
